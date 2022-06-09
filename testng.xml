@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Smoke" parallel="methods" thread-count="16">
+<!--
+<groups>
+<run>
+	<include name="Smoke"/>
+	<exclude name="Regression"/>
+</run>
+</groups>
+
+<parameter name="a" value="5"/>  
+<parameter name="b" value="3"/>-->
+
+<test name="Booking">
+		<classes>
+			<class name="SeleniumScripts.Practice.GridDemo" />
+		<!--	<class name="TestNGPack1.secondClass" />
+			<class name="TestNGPack1.GroupDependent"/>
+			<class name="TestNGPack1.TestNGParameters"/>
+			<class name="TestNGPack1.testNGDemo1"/>-->
+
+		</classes>
+	</test>
+
+<!--<test name="Payment">
+	<classes>
+ 	 	<class name="TestNGPack2.classThree"/>
+		<class name="TestNGPack2.classFour" />
+		<class name="TestNGPack2.TestNGDemo2"/>
+		
+      <class name="SeleniumScripts.Practice.Calendar"/>
+      <class name="SeleniumScripts.Practice.PracticeSignup"/>
+    </classes>
+	
+	</test>	-->
+	<!-- Test -->
+</suite> <!-- Suite -->
